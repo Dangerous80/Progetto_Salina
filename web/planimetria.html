@@ -16,105 +16,72 @@
         <!--inseriamo il Titolo della pagina-->
         <header>
             <div id="titolo">
-                Descrizione Processo Lavorazione
+                Planimetria Bacini di Evaporazione
             </div>
         </header>
-        <!--Inseriamo una barra di navigazione che contenga il link alla pagina login.html-->
+        <!--Inseriamo una barra di navigazione che contenga il link alla pagina processo.html, il link ai dati della stazione meteo, il link alle previsioni,il menù delle stazioni di sollevamento ed il menù dei punti di campionamento-->
         <nav>
             <ul>
-                <li><a href="login.html">Login</a></li>
+                <li><a href="processo.html">Descrizione Processo Lavorazione</a></li>
+                <li><a href="stazione_meteo.html">Stazione Meteo Salina</a></li>
+                <li><a href="previsioni_meteo.html">Previsioni Meteo Salina</a></li>
+                <li><a href="menu_stazioni_sollevamento"></a>
+                    <ul>
+                        <li><a href="ponte_vecchio">Stazione Ponte Vecchio</a></li>
+                        <li><a href="#depuratore">Stazione Depuratore</a></li>
+                        <li><a href="#su_cocceri">Stazione Su Cocceri</a></li>
+                        <li><a href="#is_cadenas">Stazione Is Cadenas</a></li>
+                        <li><a href="#punta_olia">Stazione Punta Olia</a></li>
+                        <li><a href="#figumorisca">Stazione Figumorisca</a></li>
+                        <li><a href="#quarto_bis">Stazione 4° Bis</a></li>
+                        <li><a href="#pischera">Stazione Pischeraa</a></li>
+                        <li><a href="#misure">Stazione Misure</a></li>
+                        <li><a href="#san_pietro">Stazione San Pietro</a></li>
+                        <li><a href="#riva">Stazione Riva</a></li>
+                    </ul>
+                </li>
+                <li><a href="#menu_punti_campionamento"></a>
+                    <ul>
+                        <li><a href="#canale_mare">Canale Mare</a></li>
+                        <li><a href="#due_n">Bacino 2 N</a></li>
+                        <li><a href="#tre_n">Bacino 3 N</a></li>
+                        <li><a href="#primo_b">Bacino 1° B</a></li>
+                        <li><a href="#secondo_b">Bacino 2° B</a></li>
+                        <li><a href="#quattro_n">Bacino 4 N</a></li>
+                        <li><a href="#cinque_n">Bacino 5 N</a></li>
+                        <li><a href="#sei_n">Bacino 6 N</a></li>
+                        <li><a href="#sette_n">Bacino 7 N</a></li>
+                        <li><a href="#otto_n">Bacino 8 N</a></li>
+                        <li><a href="#nove_n">Bacino 9 N</a></li>
+                        <li><a href="#otto_c">Bacino 8 C</a></li>
+                        <li><a href="#terzo_b">Bacino 3° B</a></li>
+                        <li><a href="#sesto_b">Bacino 6° B</a></li>
+                        <li><a href="#settimo_b">Bacino 7° B</a></li>
+                        <li><a href="#ottavo_b">Bacino 8° B</a></li>
+                        <li><a href="#nono_b">Bacino 9° B</a></li>
+                        <li><a href="#dodicesimo_tris">Bacino 12° Tris</a></li>
+                        <li><a href="#decimo_b">Bacino 10° B</a></li>
+                        <li><a href="#tre_c">Bacino 3 C</a></li>
+                        <li><a href="#quarto_bis">Bacino 4° Bis</a></li>
+                        <li><a href="#dodicesimo_b">Bacino 12° B</a></li>
+                        <li><a href="#dodicesimo_b_bis">Bacino 12° B Bis</a></li>
+                        <li><a href="#tredicesimo_b">Bacino 13° B</a></li>
+                        <li><a href="#quattordicesimo_b">Bacino 14° B</a></li>
+                        <li><a href="#quindicesimo_b">Bacino 15° B</a></li>
+                        <li><a href="#sesta_zona">Bacino 6^ Z</a></li>
+                        <li><a href="#cinque_c">Bacino 5 C</a></li>
+                        <li><a href="#sedicesimo_b">Bacino 16° B</a></li>
+                        <li><a href="#sedicesimo_b_bis">Bacino 16° B Bis</a></li>
+                        <li><a href="#diciassettesimo_b">Bacino 17° B</a></li>
+                    </ul>
+                </li>
             </ul>
         </nav>
-        <!--Inseriamo la descrizione del processo di lavorazione e creiamo un sommario con i link interni al documento-->
+        <!--Inseriamo la planimetria navigabile dei bacini evaporanti con le stazioni di sollevamento ed i punti di campionamento-->
         <div id="divBody">
-            <!--Inseriamo il sommario con i link interni alle sezioni della pagina-->
-            <div id="sommario">
-                <h1>Sommario</h1>
-                    <ul>
-                        <li><a href="#capacita_produttive">Capacità produttive della salina</a></li>
-                        <li><a href="#schema_flusso_concentrazione">Schema di flusso della concentrazione dell'acqua di mare</a>
-                            <ul>
-                                <li><a href="#fasi_concentrazione_acqua_mare">Descrizione delle fasi di concentrazione dell'acqua di mare</a></li>
-                            </ul>
-                        </li>    
-                        <li><a href="#bacini_evaporanti_superficie_salante">Descrizione dei bacini evaporanti e della superficie salante</a></li>
-                        <li><a href="#schema_flusso_circolazione_acque">Schema di flusso della circolazione delle acque nei bacini evaporanti</a>
-                            <ul>
-                                <li><a href="#movimentazione_acque">Movimentazione delle acque</a></li>
-                                <li><a href="#campionamento">Campionamento</a></li>
-                            </ul>
-                        </li> 
-                        <li><a href="#stazioni_sollevamento">Descrizione stazioni di sollevamento delle acque</a>
-                            <ul>
-                                <li><a href="#ponte_vecchio">Stazione Ponte Vecchio</a></li>
-                                <li><a href="#depuratore">Stazione Depuratore</a></li>
-                                <li><a href="#su_cocceri">Stazione Su Cocceri</a></li>
-                                <li><a href="#is_cadenas">Stazione Is Cadenas</a></li>
-                                <li><a href="#punta_olia">Stazione Punta Olia</a></li>
-                                <li><a href="#figumorisca">Stazione Figumorisca</a></li>
-                                <li><a href="#quarto_bis">Stazione 4° Bis</a></li>
-                                <li><a href="#pischera">Stazione Pischera</a></li>
-                                <li><a href="#misure">Stazione Misure</a></li>
-                                <li><a href="#san_pietro">Stazione San Pietro</a></li>
-                                <li><a href="#riva">Stazione Riva (Servitrice)</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#superficie_salante">Descrizione della superficie salante</a></li>
-                    </ul>
+            <div id="planimetria">
+                <img src='Asset/planimetria_bacini_evaporazione.jpg' alt='Planimetria Bacini Evaporazione'>        
             </div>
-            <!--Inseriamo la descrizione delle capacità produttive della salina-->
-            <div>
-                <a id="capacita_produttive">
-                    <h1>Capacità produttive della salina</h1>
-                </a>
-                    <p>Un social network è un gruppo di persone legate tra loro da legami sociali di vario tipo, come conoscenza casuale, rapporti di lavoro o vincoli familiari.
-                       Negli ultimi anni, si usa il termine social network per indicare le versioni informatiche e virtuali di queste reti sociali, nate grazie allo sviluppo della rete Internet.
-                       Il fenomenoo dei social network virtuali nasce negli Stati Uniti nei primi anni 2000 e si è inizialmente sviluppato attorno a tre grandi filoni tematici, quello professionale, quello dell'amicizia e ovviamente
-                       quello delle relazioni amorose.
-                       All'interno di un social network è consentito ad ogni utente di creare un profilo pubblico o semi-pubblico, definire una lista di contatti a cui inviare messaggi, scorrere la lista di amici dei propri contatti. 
-                       Attraverso tutto questo il social network consente di gestire e rinsaldare online amicizie preesistenti o di estendere la propria rete di amici.
-                       Per entrare a far parte di un social network occorre definire un proprio profilo personale, indicando tra le informazioni i propri interessi e le proprie passioni.
-                       Una volta creato il proprio profilo è possibile invitare i propri amici a far parte del proprio network, i quali a loro volta possono fare lo stesso, 
-                       in questo modo ci si trova ad allargare la cerchia di contatti con gli amici degli amici e così via.
-                    </p>            
-            </div>
-            <!--Inseriamo la descrizione di cosa è NerdBook-->
-            <div>
-                <a id="descrizione_nerdbook">
-                    <h1>Cosa è NerdBook e a chi si rivolge</h1>
-                </a>
-                    <p>NerdBook è un social network rivolto a tutti i Nerd o aspiranti tali che desiderano stringere amicizie, condividere passioni, materiale ed informazioni di comune interesse.</p>
-                <!--Inseriamo la descrizione di chi sono i Nerd-->
-                <a id="nerd">
-                    <h2>Chi sono i Nerd</h2>
-                </a>
-                    <p>Un giorno in un liceo degli Stati Uniti, Bill Gates tenne un discorso rivolto a una giovane platea. Nel suo discorso parlò di 11 regole. Undici regole che non si imparano sui banchi di scuola.l'undicesima regola recita testualmente:</p>
-                    <p><strong>"Siate gentili con i nerd e i secchioni. È molto probabile che un domani vi ritroviate a lavorare per uno di loro!"</strong></p>
-                    <p>Il termine Nerd è un termine della lingua inglese con cui viene definito chi ha una certa predisposizione per la tecnologia ed è al contempo tendenzialmente solitario e con una più o meno ridotta propensione alla socializzazione.
-                       Tale termine è nato come dispregiativo, ma in seguito è stato reclamato in alcuni ambiti per definire una sorta di orgoglio e di identità di gruppo.
-                       Lo stereotipo vede queste persone interesate ad attività non popolari, in tali attività solitamente ricadono quelle di natura informatica e quelle riguardanti la scienza e la matematica.
-                       I Nerd sono inoltre considerati poco interessati alle attività sportive e sociali e non hanno significativi contatti con l'altro sesso. Anche l'aspetto esteriore è rappresentato da un cliché ben definito, nella visione generale i Nerd indossano vestiti non alla moda,
-                       spesso tipici di persone più in là con gli anni (come gilet o mocassini), occhiali spessissimi, visi colmi di brufoli e pustole, pettinature piatte come il riporto, e difetti nel modo di parlare. 
-                       Un ulteriore stereotipo vede i Nerd ridicolizzati e sottoposti ad angherie (bullismo) da parte di chi è più popolare.
-                       I Nerd hanno inoltre la reputazione di impegnarsi a fondo negli studi a cui sono interessati ed esprimono generalmente un interesse superiore alla norma per argomenti complessi e spesso eccellono in più materie. 
-                       Argomenti che hanno a che fare con i computer e la tecnologia, i giochi di ruolo, i film di fantascienza, le serie tv, i fumetti, i videogiochi (generalmente ogni tipo di MMORPG che richieda varie ore di gioco) e la letteratura fantasy sono adesso tipicamente associati con i nerd.
-                    </p>
-                <!--Inseriamo la descrizione del costo di utilizzo di nerdBook-->
-                <a id="costo">
-                    <h2>Quanto costa iscriversi a NerdBook</h2>
-                </a>
-                    <p>L'iscrizione a NerdBook è completamente gratuita, priva di scadenza. Chiunque può crearsi gratuitamente un proprio profilo e comunicare ed interagire facilmente con altri membri della community in modo da condividere via web pensieri, foto, musica e altri interessi</p>
-                <!--Inseriamo la descrizione dei tipi di account previsti-->
-                <a id="account">
-                    <h3>Tipi di account di NerdBook</h3>
-                </a>
-                    <p>Esistono solo due tipi di account, standard ed Adminisstrator.Non sono previsti account Pro o Premium pertanto non verrà richiesto nessun pagamento aggiuntivo alla creazione del profilo.</p>
-                <!--Inseriamo la descrizione di come iscriversi-->
-                <a id="iscrizione">
-                    <h3>Come accedere a NerdBook</h3>
-                </a>
-                    <p>Per accedere a NerdBook clicca sul link "NerdBook Login" inserito nella barra di navigazione, inserisci Userid e password. Se non possiedi un profilo creane uno, potrai inserire una frase ed una foto nella tua bacheca personale.</p>
-            </div>
-        </div> 
+        </div>    
     </body>
 </html>
