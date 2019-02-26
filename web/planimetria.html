@@ -11,73 +11,82 @@
         <meta http-equiv="refresh" content="30">
     </head>
     
-    <!--inseriamo il corpo della pagina nel body-->
     <body>
-        <!--inseriamo il Titolo della pagina-->
-        <header>
-            <div id="titolo">
-                Planimetria Bacini di Evaporazione
-            </div>
-        </header>
-        <!--Inseriamo una barra di navigazione che contenga il link alla pagina processo.html, il link ai dati della stazione meteo, il link alle previsioni,il menù delle stazioni di sollevamento ed il menù dei punti di campionamento-->
-        <nav>
-            <ul>
-                <li><a href="processo.html">Descrizione Processo Lavorazione</a></li>
-                <li><a href="previsioni_meteo.html">Previsioni Meteo Salina</a></li>
-                <li><a href="#menu_stazioni_sollevamento">Stazioni di sollevamento</a>
+        <div id="pagePlanimetria">
+            <!--testata, la testata conterrà header, navbar ed il div di logout-->
+            <div id="header">
+                <!--inseriamo il titolo della pagina nell'header-->
+                <header>
+                    <div id="logo">
+                        <h1 id="titolo">Salina Ing. Luigi Conti Vecchi</h1>
+                    </div>
+                </header>
+                <!--Inseriamo una barra di navigazione che contenga il link alla pagina processo.html, il link ai dati della stazione meteo, il link alle previsioni,il menù delle stazioni di sollevamento ed il menù dei punti di campionamento-->
+                <nav id="linkPagine">
                     <ul>
-                        <li><a href="ponte_vecchio.html">Stazione Ponte Vecchio</a></li>
-                        <li><a href="depuratore.html">Stazione Depuratore</a></li>
-                        <li><a href="su_cocceri.html">Stazione Su Cocceri</a></li>
-                        <li><a href="is_cadenas.html">Stazione Is Cadenas</a></li>
-                        <li><a href="punta_olia.html">Stazione Punta Olia</a></li>
-                        <li><a href="figumorisca.html">Stazione Figumorisca</a></li>
-                        <li><a href="quarto_bis.html">Stazione 4° Bis</a></li>
-                        <li><a href="pischera.html">Stazione Pischeraa</a></li>
-                        <li><a href="misure.html">Stazione Misure</a></li>
-                        <li><a href="san_pietro.html">Stazione San Pietro</a></li>
-                        <li><a href="riva.html">Stazione Riva</a></li>
+                        <li><a href="processo.html">Descrizione Processo Lavorazione</a></li>
+                        <li><a href="previsioni_meteo.html">Previsioni Meteo Salina</a></li>
+                        <li><a href="#menu_stazioni_sollevamento">Stazioni di sollevamento</a>
+                            <ul>
+                                <li><a href="ponte_vecchio.html">Stazione Ponte Vecchio</a></li>
+                                <li><a href="depuratore.html">Stazione Depuratore</a></li>
+                                <li><a href="su_cocceri.html">Stazione Su Cocceri</a></li>
+                                <li><a href="is_cadenas.html">Stazione Is Cadenas</a></li>
+                                <li><a href="punta_olia.html">Stazione Punta Olia</a></li>
+                                <li><a href="figumorisca.html">Stazione Figumorisca</a></li>
+                                <li><a href="quarto_bis.html">Stazione 4° Bis</a></li>
+                                <li><a href="pischera.html">Stazione Pischeraa</a></li>
+                                <li><a href="misure.html">Stazione Misure</a></li>
+                                <li><a href="san_pietro.html">Stazione San Pietro</a></li>
+                                <li><a href="riva.html">Stazione Riva</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#menu_punti_campionamento">Punti di campionamento</a>
+                            <ul>
+                                <li><a href="canale_mare.html">Canale Mare</a></li>
+                                <li><a href="due_n.html">Bacino 2 N</a></li>
+                                <li><a href="tre_n.html">Bacino 3 N</a></li>
+                                <li><a href="primo_b.html">Bacino 1° B</a></li>
+                                <li><a href="secondo_b.html">Bacino 2° B</a></li>
+                                <li><a href="quattro_n.html">Bacino 4 N</a></li>
+                                <li><a href="cinque_n.html">Bacino 5 N</a></li>
+                                <li><a href="sei_n.html">Bacino 6 N</a></li>
+                                <li><a href="sette_n.html">Bacino 7 N</a></li>
+                                <li><a href="otto_n.html">Bacino 8 N</a></li>
+                                <li><a href="nove_n.html">Bacino 9 N</a></li>
+                                <li><a href="otto_c.html">Bacino 8 C</a></li>
+                                <li><a href="terzo_b.html">Bacino 3° B</a></li>
+                                <li><a href="sesto_b.html">Bacino 6° B</a></li>
+                                <li><a href="settimo_b.html">Bacino 7° B</a></li>
+                                <li><a href="ottavo_b.html">Bacino 8° B</a></li>
+                                <li><a href="nono_b.html">Bacino 9° B</a></li>
+                                <li><a href="dodicesimo_tris.html">Bacino 12° Tris</a></li>
+                                <li><a href="decimo_b.html">Bacino 10° B</a></li>
+                                <li><a href="tre_c.html">Bacino 3 C</a></li>
+                                <li><a href="quarto_bis.html">Bacino 4° Bis</a></li>
+                                <li><a href="dodicesimo_b.html">Bacino 12° B</a></li>
+                                <li><a href="dodicesimo_b_bis.html">Bacino 12° B Bis</a></li>
+                                <li><a href="tredicesimo_b.html">Bacino 13° B</a></li>
+                                <li><a href="quattordicesimo_b.html">Bacino 14° B</a></li>
+                                <li><a href="quindicesimo_b.html">Bacino 15° B</a></li>
+                                <li><a href="sesta_zona.html">Bacino 6^ Z</a></li>
+                                <li><a href="cinque_c.html">Bacino 5 C</a></li>
+                                <li><a href="sedicesimo_b.html">Bacino 16° B</a></li>
+                                <li><a href="sedicesimo_b_bis.html">Bacino 16° B Bis</a></li>
+                                <li><a href="diciassettesimo_b.html">Bacino 17° B</a></li>
+                            </ul>
+                        </li>
                     </ul>
-                </li>
-                <li><a href="#menu_punti_campionamento">Punti di campionamento</a>
-                    <ul>
-                        <li><a href="canale_mare.html">Canale Mare</a></li>
-                        <li><a href="due_n.html">Bacino 2 N</a></li>
-                        <li><a href="tre_n.html">Bacino 3 N</a></li>
-                        <li><a href="primo_b.html">Bacino 1° B</a></li>
-                        <li><a href="secondo_b.html">Bacino 2° B</a></li>
-                        <li><a href="quattro_n.html">Bacino 4 N</a></li>
-                        <li><a href="cinque_n.html">Bacino 5 N</a></li>
-                        <li><a href="sei_n.html">Bacino 6 N</a></li>
-                        <li><a href="sette_n.html">Bacino 7 N</a></li>
-                        <li><a href="otto_n.html">Bacino 8 N</a></li>
-                        <li><a href="nove_n.html">Bacino 9 N</a></li>
-                        <li><a href="otto_c.html">Bacino 8 C</a></li>
-                        <li><a href="terzo_b.html">Bacino 3° B</a></li>
-                        <li><a href="sesto_b.html">Bacino 6° B</a></li>
-                        <li><a href="settimo_b.html">Bacino 7° B</a></li>
-                        <li><a href="ottavo_b.html">Bacino 8° B</a></li>
-                        <li><a href="nono_b.html">Bacino 9° B</a></li>
-                        <li><a href="dodicesimo_tris.html">Bacino 12° Tris</a></li>
-                        <li><a href="decimo_b.html">Bacino 10° B</a></li>
-                        <li><a href="tre_c.html">Bacino 3 C</a></li>
-                        <li><a href="quarto_bis.html">Bacino 4° Bis</a></li>
-                        <li><a href="dodicesimo_b.html">Bacino 12° B</a></li>
-                        <li><a href="dodicesimo_b_bis.html">Bacino 12° B Bis</a></li>
-                        <li><a href="tredicesimo_b.html">Bacino 13° B</a></li>
-                        <li><a href="quattordicesimo_b.html">Bacino 14° B</a></li>
-                        <li><a href="quindicesimo_b.html">Bacino 15° B</a></li>
-                        <li><a href="sesta_zona.html">Bacino 6^ Z</a></li>
-                        <li><a href="cinque_c.html">Bacino 5 C</a></li>
-                        <li><a href="sedicesimo_b.html">Bacino 16° B</a></li>
-                        <li><a href="sedicesimo_b_bis.html">Bacino 16° B Bis</a></li>
-                        <li><a href="diciassettesimo_b.html">Bacino 17° B</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </nav>
-        <!--Inseriamo la planimetria navigabile dei bacini evaporanti con le stazioni di sollevamento ed i punti di campionamento-->
-        <div id="divBody">
+                </nav>
+                <!--inseriamo i dati utente per il logout-->
+                <div id="logout">
+                    <p id="name">Nome Utente</p>
+                    <div id="pulsanteLogout">
+                        <a id="linkLogout" href="login.html">Logout</a>
+                    </div>   
+                </div>
+            </div>    
+            <!--Inseriamo la planimetria navigabile dei bacini evaporanti con le stazioni di sollevamento ed i punti di campionamento-->
             <div id="planimetria">
                 <img src='Asset/planimetria_bacini_evaporazione.jpg' usemap="#planimetria_bacini_evaporazione" alt='Planimetria Bacini Evaporazione'>
                 <map name="planimetria_bacini_evaporazione">
@@ -125,8 +134,9 @@
                     <area shape="rect" coords="1127,269,1203,311" href="diciassettesimo_b.html" alt='Bacino 17° B'>
                 </map>
             </div>
+            <!--Inseriamo i dati della stazione meteo-->
             <div id="datiStazioneMeteo">
-                <h2>Stazione Meteo Salina</h2>
+                <h1>Stazione Meteo Salina</h1>
                 <!--<img title="bandieraVento" alt="Bandiera vento" src="../Asset/bandiera_vento.jpg">-->
                 <!--<p id="direzioneVento">Nord Ovest</p>-->
                 <!--<img title="velocitaVento" alt="Velocita vento" src="../Asset/velocita_vento.jpg">-->

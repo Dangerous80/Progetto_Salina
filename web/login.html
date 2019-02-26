@@ -11,36 +11,37 @@
         <meta http-equiv="refresh" content="30">
     </head>
     
-    <!--inseriamo il corpo della pagina nel body-->
     <body>
-        <!--inseriamo il Titolo della pagina-->
-        <header>
-            <div id="titolo">
-                Salina Ing. Luigi Conti Vecchi
-            </div>
-        </header>
-        <!--Inseriamo una barra di navigazione che contenga il link della descrizione del processo di salinificazione processo.html-->
-        <nav>
-            <ul>
-                <li><a href="processo.html">Descrizione Processo Lavorazione</a></li>
-            </ul>
-        </nav>
-        <!---->
-        <div id="divBody">
-            <!--Inseriamo la form per richiedere userid e password all'utente che vuole effettuare l'accesso-->
-            <div id="formLogin">
+        <div id="pageLogin">
+            <!--testata, la testata conterrà header e navbar-->
+            <div id="header">
+                <!--inseriamo il titolo della pagina nell'header-->
+                <header>
+                    <div id="logo">
+                        <h1 id="titolo">Salina Ing. Luigi Conti Vecchi</h1>
+                    </div>
+                </header>
+                <!--Inseriamo una barra di navigazione che contenga il link della descrizione del processo di salinificazione processo.html-->
+                <nav id="linkPagine">
+                    <ul>
+                        <li><a href="processo.html">Descrizione Processo Lavorazione</a></li>
+                    </ul>
+                </nav>
+                <!--inseriamo un div clear per fermare il float-->
+                <div id="clear"></div>
+            </div>     
+            <!--contenuto, inseriamo la form per richiedere userid e password all'utente che vuole effettuare l'accesso-->
+            <div id="contenutoLogin">
+                <img src='Asset/logo_salina.jpg' alt='Logo Salina'>
                 <form action="servlet.java" method="post">
                     <div id=inputDatiUtente>
-                        <h2>Per accedere inserire Userid e Password</h2>
-                       
-                        <label for="userid">Userid</label>
-                        <input type="text" name="userid" id="userid" value=""><br>
-                        
+                        <label for="userid">Nome Utente</label>
+                        <input type="text" name="userid" id="userid" value="text">
                         <label for="pswd">Password</label>
-                        <input type="password" name="pswd" id="pswd" value=""><br>
-                    </div>
-                    <div id="pulsanteValidazione">
-                        <button type="submit">Accedi</button>
+                        <input type="password" name="pswd" id="pswd" value="**********">
+                        <div id="pulsanteValidazione">
+                            <button type="submit">Accedi</button>
+                        </div>    
                     </div>
                 </form>
             </div>

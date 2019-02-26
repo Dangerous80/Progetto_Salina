@@ -11,22 +11,37 @@
         <meta http-equiv="refresh" content="30">
     </head>
     
-    <!--inseriamo il corpo della pagina nel body-->
     <body>
-        <!--inseriamo il Titolo della pagina-->
-        <header>
-            <div id="titolo">
-                Bacino 2 N
-            </div>
-        </header>
-        <!--Inseriamo una barra di navigazione che contenga il link alla pagina planimetria.html-->
-        <nav>
-            <ul>
-                <li><a href="planimetria.html">Planimetria Bacini di Evaporazione</a></li>
-            </ul>
-        </nav>
-        <!--Inseriamo i dati dei campioni di livello e concentrazione del bacino-->
-        <div id="divBody">
-        </div> 
+        <div id="pageBacino2N">
+            <!--testata, la testata conterrà header, navbar ed il div di logout-->
+            <div id="header">
+                <!--inseriamo il titolo della pagina nell'header-->
+                <header>
+                    <div id="logo">
+                        <h1 id="titolo">Salina Ing. Luigi Conti Vecchi</h1>
+                    </div>
+                </header>
+                <!--Inseriamo una barra di navigazione che contenga il link alla pagina login.html-->
+                <nav id="linkPagine">
+                    <ul>
+                        <li><a href="planimetria.html">Planimetria Bacini di Evaporazione</a></li>
+                    </ul>
+                </nav>
+                <!--inseriamo i dati utente per il logout-->
+                <div id="logout">
+                    <p id="name">Nome Utente</p>
+                    <div id="pulsanteLogout">
+                        <a id="linkLogout" href="login.html">Logout</a>
+                    </div>   
+                </div>
+                <!--Inseriamo un div clear per bloccare il float-->
+                <div id="clear"></div>
+            </div> 
+            <!--Inseriamo i dati dei campioni di livello e concentrazione del bacino-->
+            <div id="datiCampioniBacino">
+                <h1>Bacino 2 N</h1>
+                <!--inserire i dati dei campioni del bacino-->
+            </div> 
+        </div>    
     </body>
 </html>
